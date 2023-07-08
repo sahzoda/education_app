@@ -1,4 +1,4 @@
-import 'package:education_app/constants/icons.dart';
+import 'package:education_app/constants/images.dart';
 import 'package:education_app/models/lesson.dart';
 import 'package:flutter/material.dart';
 

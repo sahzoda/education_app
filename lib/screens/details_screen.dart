@@ -1,5 +1,5 @@
 import 'package:education_app/constants/color.dart';
-import 'package:education_app/constants/icons.dart';
+import 'package:education_app/constants/images.dart';
 import 'package:education_app/models/lesson.dart';
 import 'package:education_app/widgets/custom_video_player.dart';
 import 'package:flutter/material.dart';

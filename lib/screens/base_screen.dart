@@ -1,7 +1,10 @@
 import 'package:education_app/constants/color.dart';
-import 'package:education_app/constants/icons.dart';
+import 'package:education_app/constants/images.dart';
 import 'package:education_app/constants/size.dart';
 import 'package:education_app/screens/featuerd_screen.dart';
+import 'package:education_app/screens/my_learning.dart';
+import 'package:education_app/screens/profile.dart';
+import 'package:education_app/screens/wishlist.dart';
 import 'package:flutter/material.dart';
 
 class BaseScreen extends StatefulWidget {
@@ -16,9 +19,9 @@ class _BaseScreenState extends State<BaseScreen> {
 
   static const List<Widget> _widgetOptions = <Widget>[
     FeaturedScreen(),
-    FeaturedScreen(),
-    FeaturedScreen(),
-    FeaturedScreen(),
+    MyLearning(),
+    Wishlist(),
+    Profile(),
   ];
   @override
   Widget build(BuildContext context) {
@@ -74,7 +77,7 @@ class _BaseScreenState extends State<BaseScreen> {
                 icSettingOutlined,
                 height: kBottomNavigationBarItemSize,
               ),
-              label: "Settings",
+              label: "Profile",
             ),
           ],
           currentIndex: _selectedIndex,
