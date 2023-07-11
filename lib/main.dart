@@ -38,7 +38,7 @@ class MyApp extends StatelessWidget {
           ),
         ),
       ),
-      home: const BaseScreen(),
+      home:  BaseScreen(),
     );
   }
 }

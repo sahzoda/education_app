@@ -6,12 +6,12 @@ import 'package:flutter/material.dart';
 class ProfileMenu extends StatelessWidget {
   const ProfileMenu({
     Key? key,
-    required this.text,
-    required this.image,
+     this.text,
+     this.image,
     this.press,
   }) : super(key: key);
 
-  final String text, image;
+  final String? text, image;
   final VoidCallback? press;
 
   @override
@@ -30,11 +30,11 @@ class ProfileMenu extends StatelessWidget {
         child: Row(
           children: [
             Image.asset(
-              image,
+              image!,
               width: 22,
             ),
             SizedBox(width: 20),
-            Expanded(child: Text(text,style: TextStyle(color: kPrimaryLight),)),
+            Expanded(child: Text(text!,style: TextStyle(color: kPrimaryLight),)),
             Icon(Icons.arrow_forward_ios,color: kPrimaryLight,),
           ],
         ),

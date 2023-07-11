@@ -20,7 +20,7 @@ class _CourseScreenState extends State<CourseScreen> {
         body: SafeArea(
           bottom: false,
           child: Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 10),
+            padding: const EdgeInsets.symmetric(horizontal: 10.0, vertical: 7),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
@@ -46,7 +46,7 @@ class _CourseScreenState extends State<CourseScreen> {
                   ),
                 ),
                 const SizedBox(
-                  height: 15,
+                  height: 7,
                 ),
                 Expanded(
                   child: ListView.separated(

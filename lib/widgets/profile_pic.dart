@@ -7,7 +7,14 @@ class ProfilePic extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SizedBox(
+    return 
+          
+     
+    
+    
+    
+    
+     SizedBox(
       height: 115,
       width: 115,
       child: Stack(
@@ -31,3 +38,18 @@ class ProfilePic extends StatelessWidget {
     );
   }
 }
+
+// Scaffold(
+//       appBar: AppBar(
+//           backgroundColor: Theme.of(context).scaffoldBackgroundColor,
+//         elevation: 1,
+//         leading: IconButton(
+//           icon: Icon(
+//             Icons.arrow_back,
+//             color: kPrimaryColor,
+//           ),
+//           onPressed: () {
+//             Navigator.push(context,MaterialPageRoute(builder: (context)=>Body()));
+//           },
+//         ),
+//           ),

@@ -68,7 +68,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                   height: 15,
                 ),
                 const Text(
-                  "Futter Novice to Ninja",
+                  "Futter ",
                   style: TextStyle(
                     fontWeight: FontWeight.w700,
                     fontSize: 18,
@@ -78,7 +78,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                   height: 3,
                 ),
                 const Text(
-                  "Created by DevWheels",
+                  "Created by ...",
                   style: TextStyle(
                     fontWeight: FontWeight.w500,
                     fontSize: 16,
@@ -282,7 +282,7 @@ class _EnrollBottomSheetState extends State<EnrollBottomSheet> {
               height: 45,
               width: 45,
               child: const Text(
-                "Enroll Now",
+                "Download",
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 18,

@@ -172,7 +172,7 @@ class AppBar extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                "Hello,\nGood Morning",
+                "Hello,\nUser",
                 style: Theme.of(context).textTheme.titleLarge,
               ),
               CircleButton(

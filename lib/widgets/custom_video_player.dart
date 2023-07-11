@@ -18,8 +18,14 @@ class _CustomVideoPlayerState extends State<CustomVideoPlayer> {
   @override
   void initState() {
     super.initState();
-    _controller = VideoPlayerController.network(
-      'https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4',
+    _controller = VideoPlayerController.asset(
+      // 'videos/Specialist_In_Python.MP4'
+      ' https://github.com/quochuynh67/flutter_video_newfeed'
+      // 'https://flutter.github.io/assets-for-api-docs/assets/videos/flutter.mp4',
+      //  'https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4'
+      // 'http://www.sample-videos.com/video123/mp4/720/big_buck_bunny_720p_20mb.mp4'
+      // "http://ww.metrolagu.ru/video/1ukSR1GRtMU/flutter-tutorial-for-beginners-1-intro-setup.shtml"
+      // 'https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4',
     )
       ..initialize().then((_) {
         // Ensure the first frame is shown after the video is initialized, even before the play button has been pressed.

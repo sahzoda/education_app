@@ -83,6 +83,14 @@ flutter:
     - assets/images/help.png
     - assets/images/profile.png
     - assets/images/uxui.jpg
+    - assets/images/call.png
+    - assets/images/language.png
+    - assets/images/message.png
+    - assets/images/purchases.png
+    
+
+
+
 
 
     # - assets/fonts/

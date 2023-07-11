@@ -104,7 +104,7 @@ const Wishlist({ Key? key }) : super(key: key);
                         height: 20, 
                       ), 
                       Text( 
-                        " 4.8", 
+                        " 3.2", 
                         style: TextStyle( 
                           color: Colors.black, 
                           fontWeight: FontWeight.w500, 
@@ -119,7 +119,7 @@ const Wishlist({ Key? key }) : super(key: key);
                         color: Colors.black, 
                       ), 
                       const Text( 
-                        " 72 Hours", 
+                        " 10 Hours", 
                         style: TextStyle( 
                           color: Colors.black, 
                           fontWeight: FontWeight.w500, 
@@ -130,7 +130,7 @@ const Wishlist({ Key? key }) : super(key: key);
                         width: 30, 
                       ), 
                       const Text( 
-                        " \$40", 
+                        " \$15", 
                         style: TextStyle( 
                           color: kPrimaryColor, 
                           fontWeight: FontWeight.w700, 
@@ -170,7 +170,7 @@ const Wishlist({ Key? key }) : super(key: key);
                         height: 20, 
                       ), 
                       Text( 
-                        " 4.8", 
+                        " 4.5", 
                         style: TextStyle( 
                           color: Colors.black, 
                           fontWeight: FontWeight.w500, 
@@ -185,7 +185,7 @@ const Wishlist({ Key? key }) : super(key: key);
                         color: Colors.black, 
                       ), 
                       const Text( 
-                        " 72 Hours", 
+                        " 70 Hours", 
                         style: TextStyle( 
                           color: Colors.black, 
                           fontWeight: FontWeight.w500, 
@@ -196,7 +196,7 @@ const Wishlist({ Key? key }) : super(key: key);
                         width: 30, 
                       ), 
                       const Text( 
-                        " \$40", 
+                        " \$50", 
                         style: TextStyle( 
                           color: kPrimaryColor, 
                           fontWeight: FontWeight.w700, 
@@ -228,7 +228,7 @@ const Wishlist({ Key? key }) : super(key: key);
                         height: 20, 
                       ), 
                       Text( 
-                        " 4.8", 
+                        " 3.8", 
                         style: TextStyle( 
                           color: Colors.black, 
                           fontWeight: FontWeight.w500, 
@@ -243,7 +243,7 @@ const Wishlist({ Key? key }) : super(key: key);
                         color: Colors.black, 
                       ), 
                       const Text( 
-                        " 72 Hours", 
+                        " 55 Hours", 
                         style: TextStyle( 
                           color: Colors.black, 
                           fontWeight: FontWeight.w500, 
@@ -254,7 +254,7 @@ const Wishlist({ Key? key }) : super(key: key);
                         width: 30, 
                       ), 
                       const Text( 
-                        " \$40", 
+                        " \$60", 
                         style: TextStyle( 
                           color:kPrimaryColor, 
                           fontWeight: FontWeight.w700, 
@@ -286,7 +286,7 @@ const Wishlist({ Key? key }) : super(key: key);
                         height: 20, 
                       ), 
                       Text( 
-                        " 4.8", 
+                        " 3.3", 
                         style: TextStyle( 
                           color: Colors.black, 
                           fontWeight: FontWeight.w500, 
@@ -301,7 +301,7 @@ const Wishlist({ Key? key }) : super(key: key);
                         color: Colors.black, 
                       ), 
                       const Text( 
-                        " 72 Hours", 
+                        " 25 Hours", 
                         style: TextStyle( 
                           color: Colors.black, 
                           fontWeight: FontWeight.w500, 
@@ -312,7 +312,7 @@ const Wishlist({ Key? key }) : super(key: key);
                         width: 30, 
                       ), 
                       const Text( 
-                        " \$40", 
+                        " \$50", 
                         style: TextStyle( 
                           color: kPrimaryColor, 
                           fontWeight: FontWeight.w700, 

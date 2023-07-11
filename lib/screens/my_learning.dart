@@ -1,4 +1,3 @@
-import 'package:education_app/screens/details_screen.dart';
 import 'package:flutter/material.dart';
 
 class MyLearning extends StatelessWidget {

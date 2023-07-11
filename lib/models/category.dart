@@ -22,7 +22,7 @@ List<Category> categoryList = [
     thumbnail: 'assets/images/accounting.jpg',
   ),
   Category(
-    name: 'Photography',
+    name: 'SMM',
     noOfCourses: 16,
     thumbnail: 'assets/images/photography.jpg',
   ),

@@ -1,3 +1,5 @@
+import 'package:education_app/screens/notification_page.dart';
+import 'package:education_app/screens/profile_edit.dart';
 import 'package:flutter/material.dart';
 
 import 'profile_menu.dart';
@@ -12,17 +14,22 @@ class Body extends StatelessWidget {
           // ProfilePic(),
           SizedBox(height: 60),
           ProfileMenu(
-            text: "My Account",
+            text: "My Profile",
             image: "assets/images/profile.png",
-            press: () => {},
+            press:(){
+              Navigator.push(context, MaterialPageRoute(builder: (context) => ProfileEdit()));
+            }
+             ,
           ),
           ProfileMenu(
             text: "Notifications",
             image: "assets/images/notification.png",
-            press: () {},
+            press: () {
+               Navigator.push(context, MaterialPageRoute(builder: (context) => NotificationPage()));
+            },
           ),
           ProfileMenu(
-            text: "Settings",
+            text: "Language",
             image: "assets/images/setting.png",
             press: () {},
           ),
