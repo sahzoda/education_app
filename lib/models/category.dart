@@ -12,9 +12,9 @@ class Category {
 
 List<Category> categoryList = [
   Category(
-    name: 'Development',
+    name: 'Science',
     noOfCourses: 55,
-    thumbnail: 'assets/images/laptop.jpg',
+    thumbnail: 'assets/images/science.jpg',
   ),
   Category(
     name: 'Accounting',
@@ -27,7 +27,7 @@ List<Category> categoryList = [
     thumbnail: 'assets/images/photography.jpg',
   ),
   Category(
-    name: 'Product Design',
+    name: 'Development',
     noOfCourses: 25,
     thumbnail: 'assets/images/design.jpg',
   ),
