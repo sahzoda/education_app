@@ -29,7 +29,7 @@ class _CourseScreenState extends State<CourseScreen> {
                     children: [
                       Align(
                         child: Text(
-                          'Животные',
+                          'Наука',
                           style: Theme.of(context).textTheme.displayMedium,
                         ),
                       ),

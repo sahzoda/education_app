@@ -12,7 +12,7 @@ class Category {
 
 List<Category> categoryList = [
   Category(
-    name: 'Животные',
+    name: 'Наука',
     noOfCourses: 55,
     thumbnail: 'assets/images/science.jpg',
   ),
