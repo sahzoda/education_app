@@ -7,7 +7,7 @@ class ProfileEdit extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: "Setting UI",
+      title: "Настройки",
       home: EditProfilePage(),
     );
   }
@@ -59,7 +59,7 @@ class _EditProfilePageState extends State<EditProfilePage> {
           child: ListView(
             children: [
               Text(
-                "Edit Profile",
+                "Профиль",
                 style: TextStyle(fontSize: 25, fontWeight: FontWeight.w500),
               ),
               SizedBox(
@@ -115,44 +115,14 @@ class _EditProfilePageState extends State<EditProfilePage> {
               SizedBox(
                 height: 35,
               ),
-              buildTextField("Full Name", "User", false),
+              buildTextField("Имя", "User", false),
               buildTextField("E-mail", "user@gmail.com", false),
-              buildTextField("Password", "********", true),
-              buildTextField("Location", "Kyrgyzstan", false),
+              buildTextField("Пароль", "********", true),
+              buildTextField("Местоположение", "Kyrgyzstan", false),
               SizedBox(
                 height: 35,
               ),
-              // Row(
-              //   mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              //   children: [
-              //     OutlineButton(
-              //       padding: EdgeInsets.symmetric(horizontal: 50),
-              //       shape: RoundedRectangleBorder(
-              //           borderRadius: BorderRadius.circular(20)),
-              //       onPressed: () {},
-              //       child: Text("CANCEL",
-              //           style: TextStyle(
-              //               fontSize: 14,
-              //               letterSpacing: 2.2,
-              //               color: Colors.black)),
-              //     ),
-              //     RaisedButton(
-              //       onPressed: () {},
-              //       color: Colors.green,
-              //       padding: EdgeInsets.symmetric(horizontal: 50),
-              //       elevation: 2,
-              //       shape: RoundedRectangleBorder(
-              //           borderRadius: BorderRadius.circular(20)),
-              //       child: Text(
-              //         "SAVE",
-              //         style: TextStyle(
-              //             fontSize: 14,
-              //             letterSpacing: 2.2,
-              //             color: Colors.white),
-              //       ),
-              //     )
-              //   ],
-              // )
+              
             ],
           ),
         ),

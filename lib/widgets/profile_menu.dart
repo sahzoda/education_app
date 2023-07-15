@@ -9,10 +9,12 @@ class ProfileMenu extends StatelessWidget {
      this.text,
      this.image,
     this.press,
+    this.height
   }) : super(key: key);
 
   final String? text, image;
   final VoidCallback? press;
+  final double? height;
 
   @override
   Widget build(BuildContext context) {
@@ -30,6 +32,7 @@ class ProfileMenu extends StatelessWidget {
         child: Row(
           children: [
             Image.asset(
+              
               image!,
               width: 22,
             ),

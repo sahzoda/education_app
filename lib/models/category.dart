@@ -12,12 +12,12 @@ class Category {
 
 List<Category> categoryList = [
   Category(
-    name: 'Science',
+    name: 'Животные',
     noOfCourses: 55,
     thumbnail: 'assets/images/science.jpg',
   ),
   Category(
-    name: 'Accounting',
+    name: 'Продвижение аккаунта',
     noOfCourses: 20,
     thumbnail: 'assets/images/accounting.jpg',
   ),
@@ -27,7 +27,7 @@ List<Category> categoryList = [
     thumbnail: 'assets/images/photography.jpg',
   ),
   Category(
-    name: 'Development',
+    name: 'Разработчик',
     noOfCourses: 25,
     thumbnail: 'assets/images/design.jpg',
   ),

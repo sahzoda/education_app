@@ -18,7 +18,7 @@ const Wishlist({ Key? key }) : super(key: key);
             Stack(
               children:[
   Align(
-                child: Text("Wishlist",
+                child: Text("Понравившиеся",
                 style:Theme.of(context).textTheme.displayMedium
                 ),
               ),
@@ -36,7 +36,7 @@ const Wishlist({ Key? key }) : super(key: key);
                     leading: Image.asset( 
                       'assets/images/flutter.jpg', 
                     ), 
-                    title: Text('Flutter development'), 
+                    title: Text('Разработчик Flutter'), 
                   ), 
                   Row( 
                     mainAxisAlignment: MainAxisAlignment.end, 
@@ -61,7 +61,7 @@ const Wishlist({ Key? key }) : super(key: key);
                         color: Colors.black, 
                       ), 
                       const Text( 
-                        " 72 Hours", 
+                        " 72 часов", 
                         style: TextStyle( 
                           color: Colors.black, 
                           fontWeight: FontWeight.w500, 
@@ -94,7 +94,7 @@ const Wishlist({ Key? key }) : super(key: key);
                     leading: Image.asset( 
                       'assets/images/laptop.jpg', 
                     ), 
-                    title: Text('Why you need to be It development?'), 
+                    title: Text('Почему нужно стать разработчиком в IT?'), 
                   ), 
                   Row( 
                     mainAxisAlignment: MainAxisAlignment.end, 
@@ -119,7 +119,7 @@ const Wishlist({ Key? key }) : super(key: key);
                         color: Colors.black, 
                       ), 
                       const Text( 
-                        " 10 Hours", 
+                        " 10 часов", 
                         style: TextStyle( 
                           color: Colors.black, 
                           fontWeight: FontWeight.w500, 
@@ -185,7 +185,7 @@ const Wishlist({ Key? key }) : super(key: key);
                         color: Colors.black, 
                       ), 
                       const Text( 
-                        " 70 Hours", 
+                        " 70 часов", 
                         style: TextStyle( 
                           color: Colors.black, 
                           fontWeight: FontWeight.w500, 
@@ -243,7 +243,7 @@ const Wishlist({ Key? key }) : super(key: key);
                         color: Colors.black, 
                       ), 
                       const Text( 
-                        " 55 Hours", 
+                        " 55 часов", 
                         style: TextStyle( 
                           color: Colors.black, 
                           fontWeight: FontWeight.w500, 
@@ -301,7 +301,7 @@ const Wishlist({ Key? key }) : super(key: key);
                         color: Colors.black, 
                       ), 
                       const Text( 
-                        " 25 Hours", 
+                        " 25 часов", 
                         style: TextStyle( 
                           color: Colors.black, 
                           fontWeight: FontWeight.w500, 

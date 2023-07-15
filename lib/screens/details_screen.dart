@@ -44,7 +44,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                     children: [
                       Align(
                         child: Text(
-                          "Flutter",
+                          "Насекомые",
                           style: Theme.of(context).textTheme.displayMedium,
                         ),
                       ),
@@ -68,7 +68,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                   height: 15,
                 ),
                 const Text(
-                  "Futter ",
+                  "Пчелы ",
                   style: TextStyle(
                     fontWeight: FontWeight.w700,
                     fontSize: 18,
@@ -78,7 +78,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                   height: 3,
                 ),
                 const Text(
-                  "Created by ...",
+                  "Автор ...",
                   style: TextStyle(
                     fontWeight: FontWeight.w500,
                     fontSize: 16,
@@ -109,7 +109,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                       color: Colors.grey,
                     ),
                     const Text(
-                      " 72 Hours",
+                      " 72 часов",
                       style: TextStyle(
                         color: Colors.grey,
                         fontWeight: FontWeight.w500,
@@ -118,7 +118,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                     ),
                     const Spacer(),
                     const Text(
-                      " \$40",
+                      " \$20",
                       style: TextStyle(
                         color: kPrimaryColor,
                         fontWeight: FontWeight.w700,
@@ -186,7 +186,7 @@ class Description extends StatelessWidget {
     return const Padding(
       padding: EdgeInsets.only(top: 20.0),
       child: Text(
-          "Build Flutter iOS and Android Apps with a Single Codebase: Learn Google's Flutter Mobile Development Framework & Dart"),
+          " клада летающих насекомых из надсемейства Apoidea отряда перепончатокрылых, родственная осам и муравьям. Наука о пчёлах называется апиология "),
     );
   }
 }
@@ -202,7 +202,7 @@ class CustomTabView extends StatefulWidget {
 }
 
 class _CustomTabViewState extends State<CustomTabView> {
-  final List<String> _tags = ["Playlist (22)", "Description"];
+  final List<String> _tags = ["Видеоуроков (22)", "Описание"];
 
   Widget _buildTags(int index) {
     return GestureDetector(
@@ -267,7 +267,7 @@ class _EnrollBottomSheetState extends State<EnrollBottomSheet> {
             height: 45,
             width: 45,
             child: const Icon(
-              Icons.favorite,
+              Icons.favorite_border,
               color: Colors.pink,
               size: 30,
             ),
@@ -282,7 +282,7 @@ class _EnrollBottomSheetState extends State<EnrollBottomSheet> {
               height: 45,
               width: 45,
               child: const Text(
-                "Download",
+                "Загрузить",
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 18,

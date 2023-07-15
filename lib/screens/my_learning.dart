@@ -17,7 +17,7 @@ class MyLearning extends StatelessWidget {
                 children: [
                   Align(
                     child: Text(
-                      'My Learning',
+                      'Мои уроки',
                       style: Theme.of(context).textTheme.displayMedium,
                     ),
                   ),
@@ -63,10 +63,10 @@ class MyLearning extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
-                                'Futter Novice to Ninja',
+                                'Futter development',
                               ),
                               Text(
-                                "Futter Novice to Ninja",
+                                "Created by....",
                                 style: Theme.of(context).textTheme.bodySmall,
                               ),
                               const SizedBox(
@@ -103,10 +103,10 @@ class MyLearning extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
-                                'FReact Novice to Ninja',
+                                'React',
                               ),
                               Text(
-                                "Futter Novice to Ninja",
+                                "Created by....",
                                 style: Theme.of(context).textTheme.bodySmall,
                               ),
                               const SizedBox(
@@ -143,10 +143,10 @@ class MyLearning extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
-                                'Node - The complete guide',
+                                'Node Js',
                               ),
                               Text(
-                                "Futter Novice to Ninja",
+                                "Created by....",
                                 style: Theme.of(context).textTheme.bodySmall,
                               ),
                               const SizedBox(

@@ -43,9 +43,66 @@ class Profile extends StatelessWidget {
    body: Column(children: [
     ProfilePic(),
 
-            Body()
+            Body(),
 
+Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                   InkWell(borderRadius: BorderRadius.circular(20),
+                    
+                    focusColor: Colors.green,
+                    // onPressed: () {},
+                    // color: Colors.green,
+                    // padding: EdgeInsets.symmetric(horizontal: 50),
+                    // elevation: 2,
+                    // shape: RoundedRectangleBorder(
+                        // borderRadius: BorderRadius.circular(20)),
+                    child: Text(
+                      "Cancel",
+                      style: TextStyle(
+                          fontSize: 14,
+                          letterSpacing: 2.2,
+                          color: Colors.white),
+                    ),
+                     onTap: () {
+                       Navigator.push(context, MaterialPageRoute(builder: (context)=>Profile()));
+                     },
+                  ),
+                  // OutlineButton(
+                  //   padding: EdgeInsets.symmetric(horizontal: 50),
+                  //   shape: RoundedRectangleBorder(
+                  //       borderRadius: BorderRadius.circular(20)),
+                  //   onPressed: () {},
+                  //   child: Text("CANCEL",
+                  //       style: TextStyle(
+                  //           fontSize: 14,
+                  //           letterSpacing: 2.2,
+                  //           color: Colors.black)),
+                  // ),
+                  InkWell(borderRadius: BorderRadius.circular(20),
+                                       focusColor: Colors.green,
+                    // onPressed: () {},
+                    // color: Colors.green,
+                    // padding: EdgeInsets.symmetric(horizontal: 50),
+                    // elevation: 2,
+                    // shape: RoundedRectangleBorder(
+                        // borderRadius: BorderRadius.circular(20)),
+                    child: Text(
+                      "SAVE",
+                      style: TextStyle(
+                          fontSize: 14,
+                          letterSpacing: 2.2,
+                          color: Colors.white),
+                    ),
+                      onTap: () {
+                       Navigator.push(context, MaterialPageRoute(builder: (context)=>Profile()));
+                     },
+
+                  )
+                ],
+              )
        ]   ),
+       
             
     
       );

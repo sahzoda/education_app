@@ -45,13 +45,13 @@ class Body extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Text(
-                "Explore Categories",
+                "Категории",
                 style: Theme.of(context).textTheme.bodyLarge,
               ),
               TextButton(
                 onPressed: () {},
                 child: Text(
-                  "See All",
+                  "Все",
                   style: Theme.of(context)
                       .textTheme
                       .bodyMedium
@@ -172,7 +172,7 @@ class AppBar extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                "Hello,\nUser",
+                "Добро Пожаловать,\nUser",
                 style: Theme.of(context).textTheme.titleLarge,
               ),
               CircleButton(

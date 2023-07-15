@@ -38,14 +38,14 @@ class _BaseScreenState extends State<BaseScreen> {
           items: [
             BottomNavigationBarItem(
               activeIcon: Image.asset(
-                icFeatured,
+                'assets/images/purplehome.png',
                 height: kBottomNavigationBarItemSize,
               ),
               icon: Image.asset(
-                icFeaturedOutlined,
+                'assets/images/home.jpg',
                 height: kBottomNavigationBarItemSize,
               ),
-              label: "Featured",
+              label: "Главная ",
             ),
             BottomNavigationBarItem(
               activeIcon: Image.asset(
@@ -56,7 +56,7 @@ class _BaseScreenState extends State<BaseScreen> {
                 icLearningOutlined,
                 height: kBottomNavigationBarItemSize,
               ),
-              label: "My Learning",
+              label: "Мои уроки",
             ),
             BottomNavigationBarItem(
               activeIcon: Image.asset(
@@ -67,7 +67,7 @@ class _BaseScreenState extends State<BaseScreen> {
                 icWishlistOutlined,
                 height: kBottomNavigationBarItemSize,
               ),
-              label: "Wishlist",
+              label: "Понравившиеся",
             ),
             BottomNavigationBarItem(
               activeIcon: Image.asset(
@@ -78,7 +78,7 @@ class _BaseScreenState extends State<BaseScreen> {
                 icSettingOutlined,
                 height: kBottomNavigationBarItemSize,
               ),
-              label: "Profile",
+              label: "Профиль",
             ),
           ],
           currentIndex: _selectedIndex,

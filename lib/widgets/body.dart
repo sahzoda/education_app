@@ -14,7 +14,7 @@ class Body extends StatelessWidget {
           // ProfilePic(),
           SizedBox(height: 60),
           ProfileMenu(
-            text: "My Profile",
+            text: "Мой профиль",
             image: "assets/images/profile.png",
             press:(){
               Navigator.push(context, MaterialPageRoute(builder: (context) => ProfileEdit()));
@@ -22,24 +22,25 @@ class Body extends StatelessWidget {
              ,
           ),
           ProfileMenu(
-            text: "Notifications",
+            text: "Уведомления",
             image: "assets/images/notification.png",
             press: () {
                Navigator.push(context, MaterialPageRoute(builder: (context) => NotificationPage()));
             },
           ),
           ProfileMenu(
-            text: "Language",
-            image: "assets/images/setting.png",
+            text: "Язык",
+            image: "assets/images/lang.png",
+       
             press: () {},
           ),
           ProfileMenu(
-            text: "Help Center",
+            text: "Служба поддержки",
             image: "assets/images/help.png",
             press: () {},
           ),
           ProfileMenu(
-            text: "Log Out",
+            text: "Выход",
             image: "assets/images/logout.png",
             press: () {},
           ),

@@ -31,22 +31,22 @@ class NotificationPage extends StatelessWidget {
              
           // ),
           ProfileMenu(
-            text: "Messages",
+            text: "Сообщения",
             image: "assets/images/message.png",
             press: () {},
           ),
           ProfileMenu(
-            text: "Calls",
+            text: "Звонки",
             image: "assets/images/call.png",
             press: () {},
           ),
           ProfileMenu(
-            text: "About this app",
+            text: "О приложении",
             image: "assets/images/setting.png",
             press: () {},
           ),
           ProfileMenu(
-            text: "Purchases",
+            text: "Покупки",
             image: "assets/images/purchases.png",
             press: () {},
           ),

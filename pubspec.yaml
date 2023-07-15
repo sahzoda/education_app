@@ -84,7 +84,6 @@ flutter:
     - assets/images/profile.png
     - assets/images/uxui.jpg
     - assets/images/call.png
-    - assets/images/language.png
     - assets/images/message.png
     - assets/images/purchases.png
     - assets/images/science.jpg
@@ -93,6 +92,16 @@ flutter:
     - assets/images/biologyyy.jpg
     - assets/images/flower.jpg
     - assets/images/oxygen.jpg
+    - assets/images/animals.jpg
+    - assets/images/home.jpg
+    - assets/images/purplehome.png
+    - assets/images/language.png
+    - assets/images/lang.png
+
+
+
+
+
 
 
 

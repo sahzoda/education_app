@@ -17,36 +17,36 @@ List<Lesson> lessonList = [
     duration: '11 min 20 sec',
     isCompleted: true,
     isPlaying: true,
-    name: "Why Biology?",
+    name: "Почему биология?",
   ),
   Lesson(
     duration: '10 min 11 sec',
     isCompleted: false,
     isPlaying: false,
-    name: "Why we need oxygen?",
+    name: "Почему мы нуждаемся в кислороде?",
   ),
   Lesson(
     duration: '7 min',
     isCompleted: false,
     isPlaying: false,
-    name: "How many important chemistry?",
+    name: "Насколько важна химия?",
   ),
   Lesson(
     duration: '5 min',
     isCompleted: false,
     isPlaying: false,
-    name: "Biology..",
+    name: "Биология..",
   ),
   Lesson(
     duration: '5 min',
     isCompleted: false,
     isPlaying: false,
-    name: "Chemistry",
+    name: "Химия",
   ),
   Lesson(
     duration: '5 min',
     isCompleted: false,
     isPlaying: false,
-    name: "Nature?",
+    name: "Насекомые",
   )
 ];
